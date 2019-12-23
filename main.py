@@ -119,7 +119,7 @@ def playBall():
 
     generalRules()
     global PLAYER_NAME
-    PLAYER_NAME = input('To begin, please enter your name: ')
+    PLAYER_NAME = input('To begin, please enter full your name: ')
     clearScreen()
 
     # Level 1
