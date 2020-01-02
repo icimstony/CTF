@@ -33,7 +33,7 @@ def lvl2Directions(numOfTries):
   print ('* Camila\'s password can be guessed by looking at the surrounding area for clues.')
   print ('* Camila only uses a computer to check email and view videos on youtube.')
   print ('* Camila LOVES her pets.')
-  print ('* Camila usually uses creates her password in the following format: Name + 2 digit year')
+  print ('* Camila usually creates her passwords in the following format: Name + 2 digit year')
 
 def lvl3Directions(numOfTries):
   print ('Welcome to level 3')
@@ -45,27 +45,25 @@ def lvl3Directions(numOfTries):
   print ('* Ike has recently learned about steganography.')
   print ('* Steganography is the practice of concealing messages or information within other nonsecret text or data, LIKE A PICTURE.')
   print ('* Ike loves action movies, cars, and science fiction.')
-  print ('* Use default settings when decoding.')
+  print ('* Use default settings and NO passwords when decoding.')
   print ('* Chrome may have a bookmark that may be handy.')
 
 def lvl4Directions(numOfTries):
   print ('Welcome to level 4')
   print ('You have', numOfTries, 'attempts to guess the password.')
-  print ("The combination to open the lock on the box can be found by getting the last 4 digits of a certain 'SHA256 hash'.")
-  print ("The hash is a number generated from a string of text.")
   print ("Hashes play a role in security systems where they're used to ensure that transmitted messages have not been tampered with. The sender generates a hash of the message, encrypts it, and sends it with the message itself.") 
-  print ("The recipient then decrypts both the message and the hash, produces another hash from the received message, and compares the two hashes. If they're the same, there is a very high probability that the message was transmitted intact.")
-  print ('Locate box 1. In the box will contain the password for this challenge.\n')
   print ('Hints:') 
   print ('* The password can be guessed by looking at the surrounding area for clues.')
+  print ('Locate box 1. In the box will contain the password for this challenge.\n')
+  print ("The combination to open the lock on the box can be found by getting the last 4 digits of a certain 'SHA256 hash'.")
+  print ("* The hash is a number generated from a string of text.")
   print ('* Chrome may have a bookmark that may be handy.')
-  # Ike 6b78b40d6ae4085719a6c6d06b01e1ad621db3e94e842cd685c90ba4367b7248
   print ('* Dont look so \'puzzled\', my favorite color is red.')
 
 def lvl5Directions(numOfTries):
   print ('Welcome to level 5')
   print ('You have', numOfTries, 'attempts to guess the password. \n')
-  print ('You have 2 minutes to pick the lock and retrieve the password from a CoE Presenter. \n')
+  print ('You have 1 minutes to pick the lock and retrieve the password from a CoE Presenter. \n')
   print ('Hints:') 
   print ("* Quick tutorial: https://youtu.be/H8UF6lY-jo4?t=110")
   print ('* If you cant pick the lock there is a hint for the password, somewhere.')
