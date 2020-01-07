@@ -24,6 +24,7 @@ def lvl1Directions(numOfTries):
   print ('* Tom\'s password can be guessed by looking at the surrounding area for clues.')
   print ('* Tom can hardly use a computer.')
   print ('* Tom\'s password is most likely a top ten commonly used password.')
+  print ('* Feel free to use google if you cannot find the clue')
 
 def lvl2Directions(numOfTries):
   print ('Welcome to level 2')
@@ -57,6 +58,7 @@ def lvl4Directions(numOfTries):
   print ('Locate box 1. In the box will contain the password for this challenge.\n')
   print ("The combination to open the lock on the box can be found by getting the last 4 digits of a certain 'SHA256 hash'.")
   print ("* The hash is a number generated from a string of text.")
+  print ('* Please keep in mind the spelling of the string of text, as it can change the hash drastically.')
   print ('* Chrome may have a bookmark that may be handy.')
   print ('* Dont look so \'puzzled\', my favorite color is red.')
 
